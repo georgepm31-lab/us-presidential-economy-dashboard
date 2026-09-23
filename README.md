@@ -55,26 +55,26 @@ us-presidential-economy-dashboard/
 └── us_macro_economy_etl.ipynb # Python ETL script for data extraction & ingestion
 ```
 
-🛠️ Local Installation & Setup
+## 🛠️ Local Installation & Setup
 
-Clone the repository:
+### 1. Clone the repository:
 ```Bash
 git clone [https://github.com/georgepm31-lab/us-presidential-economy-dashboard.git](https://github.com/georgepm31-lab/us-presidential-economy-dashboard.git)
 cd us-presidential-economy-dashboard
 ```
 
-Configure Environment Variables:
+### 2. Configure Environment Variables:
 ```Bash
 DATABASE_URL=your_postgresql_connection_string_here
 PORT=5000
 ```
 
-Install Backend Dependencies:
+### 3. Install Backend Dependencies:
 ```Bash
 npm install
 ```
 
-Install Frontend Dependencies & Build:
+### 4. Install Frontend Dependencies & Build:
 ```Bash
 cd client
 npm install
@@ -82,10 +82,25 @@ npm run build
 cd ..
 ```
 
-Start the Production Server:
+### 5. Start the Production Server:
 ```Bash
 node server.js
 ```
+Open your browser and navigate to http://localhost:5000 (or 5001).
 
+👨‍💻 Author
+**Jorge Parra**
 
+*  **Role:** Full-Stack Developer / Data Analyst
+
+* **LinkedIn:** [Jorge Parra](https://www.linkedin.com/in/jorge-parra-67869634a/)
+
+* **GitHub:** [georgepm31-lab](https://github.com/georgepm31-lab)
+
+* **Data source:** Federal : Reserve Economic Data (FRED), Yahoo Finance
+* 
+*View the live demonstration:* 
+ ```bash 
+https://us-presidential-economy-dashboard.onrender.com
+```
 
