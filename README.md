@@ -98,7 +98,7 @@ Open your browser and navigate to http://localhost:5000 (or 5001).
 * **GitHub:** [georgepm31-lab](https://github.com/georgepm31-lab)
 
 * **Data source:** Federal : Reserve Economic Data (FRED), Yahoo Finance
-* 
+  
 *View the live demonstration:* 
  ```bash 
 https://us-presidential-economy-dashboard.onrender.com
